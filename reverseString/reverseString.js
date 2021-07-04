@@ -1,10 +1,5 @@
-const reverseString = function (str) {
-	let newStr = "";
+const reverseString = function() {
 
-	for (let i = str.length - 1; i >= 0; i--) {
-		newStr += str[i];
-	}
-	return newStr;
 };
 
 module.exports = reverseString;

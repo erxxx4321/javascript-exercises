@@ -1,8 +1,5 @@
-const getTheTitles = function (books) {
-	let titles = [];
-	books.map((item) => titles.push(item.title));
+const getTheTitles = function() {
 
-	return titles;
 };
 
 module.exports = getTheTitles;
